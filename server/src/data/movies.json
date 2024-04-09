@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Poor Things",
+    "releaseDate": "25/01/2024",
+    "trailerLink": "https://youtu.be/RlbR5N6veqw?si=pE5eLE58RG8Vo8j4",
+    "poster": "f32b98ab-9a2a-43f0-ab7b-c2653ac70719.png",
+    "genders": "Comedy, Drama, Romance"
+  },
+  {
+    "id": 2,
+    "title": "Dune: Part Two",
+    "releaseDate": "01/03/2024",
+    "trailerLink": "https://youtu.be/Way9Dexny3w?si=CNkr7lpoE63icaR3",
+    "poster": "8bb32b84-0f5f-4693-9f87-860dd0a35198.jpeg",
+    "genders": "Action, Adventure, Drama"
+  },
+  {
+    "id": 3,
+    "title": "Damsel",
+    "releaseDate": "08/03/2024",
+    "trailerLink": "https://youtu.be/iM150ZWovZM?si=dPNPTJtxuoBRb4tW",
+    "poster": "e2ef9593-12df-4013-ace8-e3d1114f45bb.jpeg",
+    "genders": "Action, Adventure, Fantasy"
+  },
+  {
+    "id": 4,
+    "title": "Oppenheimer",
+    "releaseDate": "20/07/2023",
+    "trailerLink": "https://youtu.be/bK6ldnjE3Y0?si=eT3NUM9gMeWwsC8J",
+    "poster": "99c01323-b6ce-4f89-9176-ef29a8bc63a0.jpeg",
+    "genders": "Biography, Drama, History"
+  },
+  {
+    "id": 5,
+    "title": "Anatomy of a Fall",
+    "releaseDate": "01/02/2024",
+    "trailerLink": "https://youtu.be/fTrsp5BMloA?si=P8hKT4BWxO-opfHu",
+    "poster": "7f6157f0-caf1-43f8-9e5f-4e4d35054404.jpeg",
+    "genders": "Crime, Drama, Thriller"
+  },
+  {
+    "id": 6,
+    "title": "Wonka",
+    "releaseDate": "15/12/2023",
+    "trailerLink": "https://youtu.be/otNh9bTjXWg?si=cNH3vNnpLnrrloul",
+    "poster": "ac1ef9ae-a323-4220-ab0f-2da80b22d958.jpeg",
+    "genders": "Adventure, Comedy, Family"
+  },
+  {
+    "id": 7,
+    "title": "Anyone But You",
+    "releaseDate": "26/12/2023",
+    "trailerLink": "https://youtu.be/UtjH6Sk7Gxs?si=8kHOw29Zl3mrjpFH",
+    "genders": "Comedy, Romance",
+    "poster": "e06d484e-b87b-4313-9608-5982c2c1ad3c.jpeg"
+  },
+  {
+    "id": 8,
+    "title": "Imaginary",
+    "releaseDate": "08/03/2024",
+    "trailerLink": "https://youtu.be/8XoNfrgrAGM?si=EeC-L1SWowp_ZXyu",
+    "poster": "ac44acf0-eda7-4a24-bca2-3b20f8d7ea1e.png",
+    "genders": "Horror, Mystery, Thriller"
+  },
+  {
+    "id": 9,
+    "title": "Barbie",
+    "releaseDate": "21/07/2023",
+    "trailerLink": "https://youtu.be/pBk4NYhWNMM?si=wGQ6q0AuKcRQrlc5",
+    "poster": "8d356542-e03a-4fdd-b7a1-d7fc3f289e5c.jpeg",
+    "genders": "Adventure, Comedy, Fantasy"
+  },
+  {
+    "id": 10,
+    "title": "Interstellar",
+    "releaseDate": "05/11/2014",
+    "trailerLink": "https://youtu.be/zSWdZVtXT7E?si=q49z9nTJ_KyoKdEK",
+    "genders": "Adventure, Drama, Sci-Fi",
+    "poster": "6010e63f-69d2-41b1-a17b-95447b24b8e7.jpeg"
+  }
+]

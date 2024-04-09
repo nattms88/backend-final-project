@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies Library</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      .movie-poster {
+        height: 250px;
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: white;
+        margin-top: 30px;
+      }
+      .movie-card {
+        border: 1px solid #dee2e6;
+        border-radius: 5px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        overflow: hidden;
+      }
+      /* Add this CSS rule */
+      .movie-details span {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h2 class="mb-4">Movies Library</h2>
+      <div id="movies" class="row"></div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      async function fetchMovies() {
+        const response = await fetch("http://localhost:3334/api/movies");
+        const movies = await response.json();
+        const movieContainer = document.getElementById("movies");
+        movieContainer.innerHTML = "";
+        movies.forEach((movie) => {
+          const movieCard = `<div class="col-md-4 col-sm-12">
+          <div class="card movie-card">
+            <div class="movie-poster" style="background-image: url(http://localhost:3334/${movie.poster})"></div>
+            <div class="card-body movie-details">
+              <h5>${movie.title}</h5>
+              <p><span>Release Date:</span> ${movie.releaseDate}</p>
+              <p><span>Genders:</span> ${movie.genders}</p>
+              <a href="${movie.trailerLink}" class="btn btn-primary" target="_blank">Watch Trailer</a>
+            </div>
+          </div>
+        </div>`;
+          movieContainer.innerHTML += movieCard;
+        });
+      }
+      fetchMovies();
+    </script>
+  </body>
+</html>
